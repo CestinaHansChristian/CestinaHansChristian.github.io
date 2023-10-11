@@ -1,0 +1,182 @@
+.map-location {
+    float: left;
+    width: 40%;
+}
+
+* {
+    font-family: 'Mooli';
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/BU_contact_BG.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.hover-home:hover {
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+.sticky-container {
+    position: sticky;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: end;
+    margin-right: 50px;
+}
+
+li {
+    display: inline-flex;
+    padding: 5px;
+    transition: .5s;
+}
+
+.nav-container {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Mooli';
+}
+
+.projects-item-hover {
+    transition: .5s;
+    position: absolute;
+    display: none;
+    max-width: 100px;
+    text-align: start;
+}
+
+.hover-hireme:hover {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.proj-content1, .proj-content2, .proj-content3{
+    text-decoration: none;
+    transition: .5s;
+    color: rgb(76, 69, 114);
+    border-radius: 5px;
+}
+
+.projects-hover:hover .projects-item-hover {
+    display: block;
+    transition: .5s;
+}
+
+.hover-home, .hover-projects, .hover-aboutme, .hover-hireme{
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.proj-content1:hover, .proj-content2:hover, .proj-content3:hover{
+    font-size: 21px;
+    padding: 2px;
+    color: aliceblue;
+}
+
+.hover-projects:hover{
+    font-size: 23px;
+    color: rgb(248, 240, 240);
+}
+
+.contact-me {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 50%;
+    box-shadow: 10px 5px 60px 10px rgb(94, 86, 86);
+}
+
+.row:after {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.row { 
+    width: 100%;
+}
+
+.form-field {
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.username, .text-area-msg {
+    width: 80%;
+}
+
+input,label {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.message-form {
+    width: 100%;
+}
+
+.message-field {
+    height: 600px;
+    margin-left: 40%;
+    text-align: start;
+    padding-left: 10%;
+}
+
+.map {
+    width: 100%;
+    margin-right: 50%;
+    height: 600px;
+}
+
+textarea {
+    resize: none;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0);
+    border-radius: 5px;
+    border: none;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: skyblue;
+    transition: 0.5s;
+    font-size: 23px;
+}
+
+@font-face {
+    font-family:'Mooli';
+    src: url(../Mooli/Mooli-Regular.ttf);
+}
+
+.footer-all-pages {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-all-pages a {
+ text-decoration: none;
+}
