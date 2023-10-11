@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Mooli';
+    src: url(../Mooli/Mooli-Regular.ttf);
+}
+
+* {
+    font-family: 'Mooli';
+    box-sizing: border-box;
+    background-image: url(../image/BU_contact_BG.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.footer-all-pages {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    display: grid;
+    margin: 0 16% 0 20%;
+    box-shadow: 0px 5px 7px 3px rgb(94, 86, 86);
+    padding-bottom: 50px;
+}
+
+li {
+    display: inline-flex;
+    padding: 5px;
+    transition: .5s;
+}
+
+.sticky-container {
+    position: sticky;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: end;
+    margin-right: 50px;
+}
+
+.nav-container {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Mooli';
+}
+
+.projects-item-hover {
+    font-size: 20px;
+    padding: 2px;
+    transition: .5s;
+    position: absolute;
+    display: none;
+    max-width: 120px;
+    text-align: start;
+}
+
+.hover-aboutme:hover {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.hover-home:hover,.hover-projects:hover, .hover-hireme:hover {
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+.proj-content1, .proj-content2, .proj-content3{
+    text-decoration: none;
+    transition: .5s;
+    color: rgb(76, 69, 114);
+}
+
+.projects-hover:hover .projects-item-hover {
+    display: block;
+    transition: .5s;
+}
+
+.hover-home, .hover-projects, .hover-aboutme, .hover-hireme {
+    color: rgb(76, 69, 114);
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.content-upper img {
+    padding:10px;
+}
+
+.content-upper {
+    margin: 50px 10% 50px 10%;
+    display: block;
+    border: 2px solid black;
+    width: 80%;
+}
+
+.caption-info {
+    border-radius: 20px;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.short-intro {
+    font-size: 30px;
+    float: right;
+}
+
+.image-dev-abtme {
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    pointer-events: none;
+    box-shadow: 10px 0px 10px 0px #5e5d5d;
+}
+
+.proj-content1:hover, .proj-content2:hover, .proj-content3:hover {
+    font-size: 21px;
+    padding: 2px;
+    color: aliceblue;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(76, 69, 114);
+}
+
+.my-socials a {
+    transition: 1s;
+}
+
+.my-socials a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+    font-size: 24px;
+}
+
+/* fork */
+
+.inner {
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+    color: aliceblue;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+    font-size: 20px;
+	color: antiquewhite;
+}
+
+.inner p {
+	color:antiquewhite;
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:100px auto;
+}
+
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}

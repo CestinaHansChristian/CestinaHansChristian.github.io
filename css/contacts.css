@@ -166,6 +166,16 @@ button:hover {
     src: url(../Mooli/Mooli-Regular.ttf);
 }
 
+.my-socials a {
+    transition: 1s;
+}
+
+.my-socials a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+    font-size: 24px;
+}
+
 .footer-all-pages {
     text-align: center;
     font-weight: 800;

@@ -29,6 +29,16 @@ body {
     width: 70%;
 }
 
+.my-socials a {
+    transition: 1s;
+}
+
+.my-socials a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+    font-size: 24px;
+}
+
 .footer-all-pages {
     text-align: center;
     font-weight: 800;
@@ -37,7 +47,6 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
@@ -140,7 +149,6 @@ li {
 }
 
 .image-of-me {
-    padding: auto;
     border-radius: 10px;
     height: 500px;
     width: 50%;
