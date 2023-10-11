@@ -20,7 +20,6 @@ body {
 }
 
 .top-info {
-    background-color: rgb(158, 145, 145);
     padding: 20px;
     border-radius: 10px;
     margin: auto;
@@ -153,7 +152,7 @@ li {
     height: 500px;
     width: 50%;
     pointer-events: none;
-    box-shadow: 10px 5px 8px #5e5d5d;
+    box-shadow: 10px 2px 50px 2px #5e5d5d;
 }
 
 .hover-home:hover {

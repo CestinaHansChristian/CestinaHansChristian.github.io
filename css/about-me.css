@@ -26,9 +26,10 @@
 
 .container {
     display: grid;
-    margin: 0 16% 0 20%;
-    box-shadow: 0px 5px 7px 3px rgb(94, 86, 86);
-    padding-bottom: 50px;
+    /* margin: 0 16% 0 20%; */
+    /* box-shadow: 0px 5px 7px 3px rgb(94, 86, 86); */
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 li {
@@ -97,15 +98,13 @@ li {
     border-radius: 5px;
 }
 
-.content-upper img {
-    padding:10px;
-}
 
 .content-upper {
     margin: 50px 10% 50px 10%;
-    display: block;
-    border: 2px solid black;
-    width: 80%;
+    box-shadow: 0px 5px 7px 3px rgb(94, 86, 86);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .caption-info {
@@ -125,12 +124,13 @@ li {
 
 .image-dev-abtme {
     margin: auto;
-    padding: auto;
     border-radius: 10px;
     height: 300px;
-    width: 400px;
+    width: 50%;
     pointer-events: none;
-    box-shadow: 10px 0px 10px 0px #5e5d5d;
+    box-shadow: 10px 2px 50px 2px #5e5d5d;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .proj-content1:hover, .proj-content2:hover, .proj-content3:hover {
@@ -142,6 +142,11 @@ li {
 li a {
     text-decoration: none;
     color: rgb(76, 69, 114);
+}
+
+div .inner {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my-socials a {
@@ -157,7 +162,8 @@ li a {
 /* fork */
 
 .inner {
-	margin:0 auto;
+    margin-right: auto;
+    margin-left: auto;
 	max-width:975px;
 	padding:3em;
     color: aliceblue;
@@ -168,15 +174,16 @@ li a {
 	font-size:1.75em;
 }
 
-.inner p
-{
-    font-size: 20px;
-	color: antiquewhite;
+section strong {
+    font-size: 30px;
 }
 
 .inner p {
 	color:antiquewhite;
 	font-style:normal;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .inner section
