@@ -11,7 +11,7 @@ body {
 
 .main-container {
     margin: auto 5% auto 5%;
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
 .name-top {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .hover-home, .hover-projects, .hover-aboutme, .hover-hireme{
-    text-decoration: none;
+    color: rgb(76, 69, 114);
     margin-left: auto;
     margin-right: auto;
     transition: .5s;
@@ -104,10 +104,11 @@ a:hover {
     color: whitesmoke;
 }
 
-.hover-projects:hover, .hover-hireme:hover{
+.hover-projects:hover, .hover-hireme:hover, .hover-aboutme:hover{
     font-size: 23px;
     color: whitesmoke;
 }
+
 
 li {
     display: inline-flex;

@@ -43,7 +43,7 @@
 .content-1, .content-2, .content-3 {
     padding-top: 5px;
     margin: 5px;
-    opacity: 0.5;
+    opacity: 0.3;
     display: grid;
 }
 
@@ -82,6 +82,7 @@
 
 .hover-home, .hover-projects, .hover-aboutme, .hover-hireme{
     text-decoration: none;
+    color: rgb(76, 69, 114);
     margin-left: auto;
     margin-right: auto;
     transition: .5s;
@@ -89,7 +90,7 @@
     border-radius: 5px;
 }
 
-.hover-home:hover {
+.hover-home:hover, .hover-aboutme:hover{
     color: aliceblue;
     font-size: 23px;
 }
