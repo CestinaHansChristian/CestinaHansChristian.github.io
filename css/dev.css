@@ -47,6 +47,19 @@
     display: grid;
 }
 
+.footer-all-pages {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .content-1:hover, .content-2:hover, .content-3:hover {
     opacity: 1;
 }
