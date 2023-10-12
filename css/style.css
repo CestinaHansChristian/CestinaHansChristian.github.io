@@ -10,44 +10,47 @@ body {
 }
 
 .main-container {
-    margin: auto 5% auto 5%;
-    padding-top: 1%;
+    margin: 0 8%;
 }
 
 .name-top {
-    color: whitesmoke;
+    color: aliceblue;
     font-size: 40px;
 }
 
 .top-info {
-    padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: auto;
-    box-shadow: 10px 5px 60px 10px rgb(94, 86, 86);
-    top: 0;
     width: 70%;
 }
 
-.my-socials a {
+.my-socials, .copyright-sign p {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-sign p {
+    color: gainsboro;
+}
+
+.my-socials a { 
+    font-size: 40px;
+    color: currentColor;
     transition: 1s;
 }
 
 .my-socials a:hover {
     color: aliceblue;
     transition: 0.5s;
-    font-size: 24px;
+    font-size: 45px;
 }
 
 .footer-all-pages {
-    text-align: center;
     font-weight: 800;
-    font-size: 20px;
     position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5%;
 }
 
 a {
@@ -63,15 +66,16 @@ a:hover {
     top:0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-    text-align: end;
-    margin-right: 50px;
 }
 
 .nav-container {
+    display: inline-flex;
+    width: 100%;
+    align-content: center;
     color: aliceblue;
     font-size: 20px;
     font-weight: 800;
+    border: 2px solid black;
     font-family: 'Mooli';
 }
 
@@ -94,11 +98,10 @@ a:hover {
 .projects-hover:hover .projects-item-hover {
     display: block;
     transition: .5s;
-    margin-bottom: 5px;
 }
 
 .hover-home, .hover-projects, .hover-aboutme, .hover-hireme{
-    color: rgb(76, 69, 114);
+    color: black;
     margin-left: auto;
     margin-right: auto;
     transition: .5s;
@@ -118,9 +121,10 @@ a:hover {
 }
 
 
-li {
-    display: inline-flex;
-    padding: 5px;
+nav {
+    width: 100%;
+    text-align: center;
+    float: right;
     transition: .5s;
 }
 
@@ -135,22 +139,26 @@ li {
 }
 
 .dev-picture {
-    padding: 0;
-    width: auto;
-    align-items: center;
+    padding: 20px 20px;
 }
 
 .action-btn {
-    padding: 10% 5% 5% 15%;
+    text-align: center;
+    padding: 2px;
     float: right;
     width: 50%;
     margin: auto;
 }
 
+.action-btn h1 {
+    padding-top: 10%;
+}
+
 .image-of-me {
-    border-radius: 10px;
-    height: 500px;
-    width: 50%;
+    margin-left: 2%;
+    border-radius: 50%;
+    height: 40%;
+    width: 40%;
     pointer-events: none;
     box-shadow: 10px 2px 50px 2px #5e5d5d;
 }
@@ -170,20 +178,28 @@ li {
     color: rgb(76, 69, 114);
 }
 
+
+.link-clickable-child:hover {
+    color: aliceblue;
+}
+
 .link-clickable:hover {
     transition: .5s;
     font-size: 40px;
     cursor: pointer;
 }
 
+.caption-info p {
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+
 .caption-info {
+    padding: 1%;
+    width: 100%;
     border-radius: 20px;
     background-color: gainsboro;
     display: inline-block;
-    width: 50%;
-    padding: 20px;
-    border: 2px solid black;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
+    box-shadow: 10px 10px 40px rgb(97, 97, 99);
 }
