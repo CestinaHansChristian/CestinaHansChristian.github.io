@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Mooli';
 }
 
 body {
@@ -10,17 +11,18 @@ body {
 }
 
 .main-container {
-    margin: 0 8%;
+    padding: 5% 0 0 0;
+    margin: 0 10%;
 }
 
 .name-top {
-    color: aliceblue;
+    color: rgb(76, 69, 114);;
     font-size: 40px;
 }
 
 .top-info {
     border-radius: 5px;
-    margin: auto;
+    margin: auto auto auto auto;
     width: 70%;
 }
 
@@ -63,20 +65,30 @@ a:hover {
 
 .sticky-container {
     position: sticky;
-    top:0;
-    margin-left: auto;
-    margin-right: auto;
+    top: 0;
+    display: grid;
 }
 
-.nav-container {
-    display: inline-flex;
-    width: 100%;
-    align-content: center;
-    color: aliceblue;
+.home-hover, .projects-hover, .aboutMe-hover, .hireMe-hover {
     font-size: 20px;
-    font-weight: 800;
-    border: 2px solid black;
-    font-family: 'Mooli';
+    font-weight: 700;
+    float: right;
+    margin-right: 10px;
+    padding: 0 2%;
+    border-radius: 10px;
+}
+
+.sticky-container li {
+    list-style: none;
+    border-radius: 10px;
+    display: block;
+}
+
+ul .banner-logo {
+    position: absolute;
+    float: right;
+    top: 0;
+    font-size: 70px;
 }
 
 .projects-item-hover {
@@ -120,8 +132,7 @@ a:hover {
     color: whitesmoke;
 }
 
-
-nav {
+nav .nav-btns {
     width: 100%;
     text-align: center;
     float: right;
@@ -129,7 +140,6 @@ nav {
 }
 
 .main-body {
-    font-family: 'Mooli';
     transition: .9s;
 }
 
@@ -155,7 +165,7 @@ nav {
 }
 
 .image-of-me {
-    margin-left: 2%;
+    margin: 1% 2% 0 0;
     border-radius: 50%;
     height: 40%;
     width: 40%;
@@ -178,7 +188,6 @@ nav {
     color: rgb(76, 69, 114);
 }
 
-
 .link-clickable-child:hover {
     color: aliceblue;
 }
@@ -192,11 +201,36 @@ nav {
 .caption-info p {
     text-align: center;
     position: relative;
-    padding-top: 20px;
+    padding-top: 15px;
+}
+
+.banner-logo img {
+    width: 100%;
+    height: 70px;
+    border-radius: 50%;
+    animation-name:rotationBanner ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+@keyframes rotationBanner {
+    0% {
+        border: 2px solid rgb(239, 107, 12);
+    }
+    25% {
+        border: 4px solid rgb(184, 98, 38);
+    }
+    50% {
+        border: 4px solid rgb(150, 117, 74);
+    }
+    100% {
+        border: 2px solid rgb(49, 41, 41);
+    }
 }
 
 .caption-info {
-    padding: 1%;
+    padding: 0.2;
     width: 100%;
     border-radius: 20px;
     background-color: gainsboro;
