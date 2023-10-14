@@ -1,6 +1,6 @@
 .map-location {
     float: left;
-    width: 40%;
+    width: 45%;
 }
 
 * {
@@ -17,7 +17,6 @@ body {
 
 .hover-home:hover {
     color: whitesmoke;
-    font-size: 23px;
 }
 
 .sticky-container {
@@ -126,13 +125,11 @@ li {
 }
 
 .proj-content1:hover, .proj-content2:hover, .proj-content3:hover{
-    font-size: 21px;
     padding: 2px;
     color: aliceblue;
 }
 
 .hover-projects:hover, .hover-aboutme:hover{
-    font-size: 23px;
     color: whitesmoke;
 }
 
@@ -183,7 +180,7 @@ input,label {
 }
 
 .map {
-    width: 100%;
+    width: auto;
     margin-right: 50%;
     height: 600px;
 }
@@ -220,7 +217,6 @@ button:hover {
 .my-socials a:hover {
     color: aliceblue;
     transition: 0.5s;
-    font-size: 24px;
 }
 
 .footer-all-pages {
@@ -239,6 +235,7 @@ button:hover {
 
 .copyright-sign p {
     color: gainsboro;
+    font-weight: 800;
 }
 
 .my-socials a { 
@@ -250,5 +247,4 @@ button:hover {
 .my-socials a:hover {
     color: aliceblue;
     transition: 0.5s;
-    font-size: 45px;
 }

@@ -44,7 +44,6 @@ body {
 .my-socials a:hover {
     color: aliceblue;
     transition: 0.5s;
-    font-size: 45px;
 }
 
 .footer-all-pages {
@@ -128,7 +127,6 @@ ul .banner-logo {
 }
 
 .hover-projects:hover, .hover-hireme:hover, .hover-aboutme:hover{
-    font-size: 23px;
     color: whitesmoke;
 }
 
